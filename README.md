@@ -5,24 +5,23 @@ To run it, you must have installed [Ionic Framework](http://ionicframework.com/d
 
 Change the following placeholder MASHAPE_KEY_HERE for your Mashape key  
 
-After the key is replaced, run the following comands:  
-```
-$ cd TicTacToe
-$ ionic serve
-
-```
-After this you can go and open the followin URL on any browser:  
-http://localhost:8100/
+After the key is replaced, you can start develping ans testing  
 
 ## Colaborating:
+
+To clone and start working:
+```
+git clone https://github.com/katrykat/TicTacToe.git
+cd TicTacToe/
+npm install
+ionic serve
+```
+After this you can go and open the followin URL on any browser:  
+http://localhost:8100/  
+
 To clean the project: 
 ```
 npm run clean
-```
-Add a platform:
-```
-cordoba platform add android
-ionic build android
 ```
 ## API Used
 This have been developed using the followin API:  
