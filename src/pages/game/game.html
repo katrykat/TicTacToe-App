@@ -1,0 +1,32 @@
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Tic Tac Toe</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding id="background1">
+
+      <ion-grid fab-center>
+      <ion-row>
+        <ion-col col-4><button ion-button large outline (click)='move(0);'>{{buttons[0]}}</button></ion-col>
+        <ion-col col-4><button ion-button large outline (click)='move(1);'>{{buttons[1]}}</button></ion-col>
+        <ion-col col-4><button ion-button large outline (click)='move(2);'>{{buttons[2]}}</button></ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-4><button ion-button large outline (click)='move(3);'>{{buttons[3]}}</button></ion-col>
+        <ion-col col-4><button ion-button large outline (click)='move(4);'>{{buttons[4]}}</button></ion-col>
+        <ion-col col-4><button ion-button large outline (click)='move(5);'>{{buttons[5]}}</button></ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-4><button ion-button large outline (click)='move(6);'>{{buttons[6]}}</button></ion-col>
+        <ion-col col-4><button ion-button large outline (click)='move(7);'>{{buttons[7]}}</button></ion-col>
+        <ion-col col-4><button ion-button large outline (click)='move(8);'>{{buttons[8]}}</button></ion-col>
+      </ion-row>
+    </ion-grid>
+</ion-content>
+

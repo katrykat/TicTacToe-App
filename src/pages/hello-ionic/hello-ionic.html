@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Tic Tac Toe</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding id="color">
+  <section id="text">
+      <h1>Welcome to TicTacToe!</h1>
+
+      <p>
+        The most addictive game of all times.
+      </p>
+      <p>
+        Just start playing!
+      </p>
+   </section> 
+   <section id="button">     
+      <p>
+        <button ion-button color="primary" (click)='start(0);'>Start Single</button>
+      </p>
+      <p>
+        <button ion-button color="primary" (click)='start(1);'>Start Multiplayer</button>
+      </p>
+   </section>   
+ 
+
+</ion-content>
