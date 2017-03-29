@@ -1,6 +1,6 @@
 # TicTacToe
 
-## Runnig it
+## Running it
 To run it, you must have installed [Ionic Framework](http://ionicframework.com/docs/guide/installation.html)  
 
 Change the following placeholder MASHAPE_KEY_HERE for your Mashape key  
